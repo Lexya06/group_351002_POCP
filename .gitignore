@@ -1,0 +1,35 @@
+# Временные и кэш файлы Vivado
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.tmp
+*.bak
+*.cache
+*.data
+*.runs
+*.sdk
+*.srcs
+*.hw
+*.xpr
+*.dcp
+*.hdf
+*.xsa
+
+# Папки проектов Vivado (генерируются автоматически)
+.sim/
+.hw/
+.ip_user_files/
+.cache/
+.runs/
+.data/
+.srcs/
+
+# Файлы настроек IDE
+.idea/
+.vscode/
+*.swp
+*~
