@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Feb 15 23:24:05 2026
+# Process ID: 22992
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26896 C:\Users\ASUS\Desktop\Vivado_tasks\Lab1\Task4\Task4.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task4/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task4\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task4/Task4.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.xpr
+update_compile_order -fileset sources_1
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/AND2.vhd]
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/AND3.vhd]
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/AND4.vhd]
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/XOR2.vhd]
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/OR2.vhd]
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2.vhd]
+update_compile_order -fileset sources_1
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/INV.vhd]
+add_files -norecurse C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd
+add_files -norecurse C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd
+add_files -norecurse C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd]
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -front C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd

@@ -1,0 +1,232 @@
+
+*** Running vivado
+    with args -log Switch_led_commut_with_xor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Switch_led_commut_with_xor.tcl
+
+
+Режим вывода команд на экран (ECHO) отключен.
+Режим вывода команд на экран (ECHO) отключен.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Switch_led_commut_with_xor.tcl -notrace
+Command: synth_design -top Switch_led_commut_with_xor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11884
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1310.504 ; gain = 441.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Switch_led_commut_with_xor' [C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.srcs/sources_1/new/Switch_led_commut_with_xor.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Switch_led_commut_with_xor' (0#1) [C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.srcs/sources_1/new/Switch_led_commut_with_xor.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1417.387 ; gain = 548.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1417.387 ; gain = 548.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1417.387 ; gain = 548.148
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1417.387 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.srcs/constrs_1/new/Master-Basys3.xdc]
+Finished Parsing XDC File [C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.srcs/constrs_1/new/Master-Basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.srcs/constrs_1/new/Master-Basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Switch_led_commut_with_xor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Switch_led_commut_with_xor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Системе не удается найти указанный путь.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1436.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design Switch_led_commut_with_xor has an empty top module
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[15] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[14] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[13] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[12] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[11] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[10] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[9] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[8] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[6] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[3] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[2] driven by constant 0
+WARNING: [Synth 8-3917] design Switch_led_commut_with_xor has port LED[1] driven by constant 0
+WARNING: [Synth 8-7129] Port SW[15] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[14] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[13] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[12] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[11] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[10] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[9] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[8] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[6] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[3] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[2] in module Switch_led_commut_with_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SW[1] in module Switch_led_commut_with_xor is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |IBUF |     4|
+|2     |OBUF |    16|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1436.406 ; gain = 548.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1436.406 ; gain = 567.168
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.406 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Системе не удается найти указанный путь.
+Synth Design complete | Checksum: 9f8b223
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1436.406 ; gain = 961.145
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task3/Task3.runs/synth_1/Switch_led_commut_with_xor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Switch_led_commut_with_xor_utilization_synth.rpt -pb Switch_led_commut_with_xor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 10 18:28:11 2026...

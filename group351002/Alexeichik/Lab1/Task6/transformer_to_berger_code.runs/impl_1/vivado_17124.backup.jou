@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Feb 15 12:11:38 2026
+# Process ID: 17124
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.runs/impl_1
+# Command line: vivado.exe -log transform_to_berger_from_7421bcd.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source transform_to_berger_from_7421bcd.tcl -notrace
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.runs/impl_1/transform_to_berger_from_7421bcd.vdi
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.runs/impl_1\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+source transform_to_berger_from_7421bcd.tcl -notrace

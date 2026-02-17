@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1770895610">
+  <File Type="ROUTE-PWR" Name="alu_unit_package_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="alu_unit_package.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="alu_unit_package_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="alu_unit_package_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="alu_unit_package_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="alu_unit_package.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="alu_unit_package_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="alu_unit_package_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="alu_unit_package_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="alu_unit_package_opt.dcp"/>
+  <File Type="OPT-DRC" Name="alu_unit_package_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="alu_unit_package.hwdef"/>
+  <File Type="PWROPT-DCP" Name="alu_unit_package_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="alu_unit_package_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="alu_unit_package_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="alu_unit_package_placed.dcp"/>
+  <File Type="PLACE-IO" Name="alu_unit_package_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="alu_unit_package_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="alu_unit_package_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="alu_unit_package_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="alu_unit_package_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="alu_unit_package_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alu_unit_package_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="alu_unit_package.bin"/>
+  <File Type="PLACE-TIMING" Name="alu_unit_package_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="alu_unit_package_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="alu_unit_package_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_unit_package_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="alu_unit_package.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="alu_unit_package_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="alu_unit_package_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="alu_unit_package_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="alu_unit_package.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="alu_unit_package_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="alu_unit_package_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="alu_unit_package_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_unit_package_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="alu_unit_package_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="alu_unit_package_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="alu_unit_package_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_unit_package_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_unit_package_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_unit_package_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="alu_unit_package_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="alu_unit_package_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alu_unit_package_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_unit_package_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="alu_unit_package_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alu_unit_package_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="alu_unit_package_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="alu_unit_package_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="alu_unit_package_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="alu_unit_package_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="alu_unit_package_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="alu_unit_package_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="alu_unit_package_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="switch_led_alu_unit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="switch_led_alu_unit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="switch_led_alu_unit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="switch_led_alu_unit_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="alu_unit_package.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="switch_led_alu_unit_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="switch_led_alu_unit_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="alu_unit_package.nky"/>
+  <File Type="BITSTR-BMM" Name="alu_unit_package_bd.bmm"/>
+  <File Type="PDI-FILE" Name="alu_unit_package.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="alu_unit_package_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="alu_unit_package_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="alu_unit_package.rcfi"/>
+  <File Type="CFI_FILE" Name="alu_unit_package.cfi"/>
+  <File Type="RNPI_FILE" Name="alu_unit_package.rnpi"/>
+  <File Type="NPI_FILE" Name="alu_unit_package.npi"/>
+  <File Type="RBD_FILE" Name="alu_unit_package.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="alu_unit_package.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="alu_unit_package.sysdef"/>
+  <File Type="BG-BGN" Name="alu_unit_package.bgn"/>
+  <File Type="BG-DRC" Name="alu_unit_package.drc"/>
+  <File Type="RDI-RDI" Name="alu_unit_package.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="alu_unit_package_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="alu_unit_package_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/switch_led_alu_unit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu_unit_package.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="alu_unit_package"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/alu_unit_package.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
