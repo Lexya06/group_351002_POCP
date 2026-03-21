@@ -45,10 +45,11 @@ entity to_berger_transfom_structural is
 end to_berger_transfom_structural;
 
 architecture Behavioral of to_berger_transfom_structural is
-signal cmp_bit, reset: std_logic;
-signal bit_index: integer range 0 to 15;
+signal cmp_bit, reset: std_logic := '0';
+signal bit_index: integer range 0 to 15 := 0;
 signal reg_start,reg_next: std_logic_vector(4 downto 0):= (others => '0');
 signal sw_prev: std_logic_vector(15 downto 0):=(others => '0');
+
 
 begin
     counter: entity my_gateslib.COUNTER5 port map (
@@ -77,16 +78,14 @@ begin
                     cmp_bit <= '0';
                     sw_prev <= (others => '0');
                     bit_index <= 0;
-                    reg_start <= (others => '0');
-                    LED(4 downto 0) <= reg_next;
-                    LED(15 downto 5) <= (others => '0');   
+                    reg_start <= (others => '0');  
                 end if;  
             end if;
           
         end if;
                   
-    end process; 
-    
-    
+    end process;
+    LED(4 downto 0) <= reg_next;
+    LED(15 downto 5) <= (others => '0');
 
 end Behavioral;

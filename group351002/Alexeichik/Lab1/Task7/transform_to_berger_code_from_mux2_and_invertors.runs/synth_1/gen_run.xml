@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771354337" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/to_berger_transfom_structural.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771710120" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/to_berger_transfom_structural.dcp">
   <File Type="PA-TCL" Name="to_berger_transfom_structural.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="to_berger_transfom_structural_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="to_berger_transfom_structural_reports.tcl"/>
@@ -129,7 +129,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

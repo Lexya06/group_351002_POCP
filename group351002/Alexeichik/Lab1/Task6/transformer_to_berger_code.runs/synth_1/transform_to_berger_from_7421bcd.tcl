@@ -70,10 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 4
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -101,8 +97,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc
-set_property used_in_implementation false [get_files C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc]
+read_xdc C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3-without-clk.xdc
+set_property used_in_implementation false [get_files C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3-without-clk.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 

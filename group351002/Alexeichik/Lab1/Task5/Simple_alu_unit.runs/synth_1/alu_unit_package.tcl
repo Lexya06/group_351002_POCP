@@ -71,8 +71,8 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 4
-set_param synth.incrementalSynthesisCache C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-13384-DESKTOP-66O4QSA/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-28640-DESKTOP-66O4QSA/incrSyn
+set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -89,10 +89,7 @@ set_property ip_output_repo c:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task5/Simple
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib {
-  C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task5/Simple_alu_unit.srcs/sources_1/new/switch_led_alu_unit.vhd
-  C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task5/Simple_alu_unit.srcs/sources_1/new/alu_unit_package.vhd
-}
+read_vhdl -library xil_defaultlib C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task5/Simple_alu_unit.srcs/sources_1/new/alu_unit_package.vhd
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

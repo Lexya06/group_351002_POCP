@@ -44,7 +44,8 @@ package body CODE_TRANSFORM is
     subtype elems_range is integer range 0 to x'length;
     variable count_bits:elems_range:=0;
     variable temp:elems_range:=0;
-    begin  
+    begin 
+        
         if ((start_index < 0 or start_index > x'length-1) 
              or (end_index < 0 or end_index > x'length-1)) then
             return 0;
@@ -57,20 +58,7 @@ package body CODE_TRANSFORM is
          return count_bits;         
     end function;
     
-    function check_7421bcd(x: std_logic_vector) return boolean is
-    subtype elems_range is integer range 0 to x'length;
-    variable general_bit: elems_range:=0;
-    begin
-        loop
-            exit when general_bit >= x'length;            
-            if ((x(general_bit) = '1' and x(general_bit + 1) = '1' and x(general_bit + 2) = '1')
-                or (x(general_bit + 2) = '1' and x(general_bit + 3) = '1')) then
-                return false;
-            end if;
-            general_bit := general_bit + bcd_number_bits_count;
-        end loop;
-        return true;
-    end function;
+
     
     function  transform_7421bcd_to_berger(x: std_logic_vector) return std_logic_vector is
     variable res: std_logic_vector(x'range);

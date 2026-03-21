@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Feb 17 21:53:05 2026
+| Date         : Sun Feb 22 00:42:39 2026
 | Host         : DESKTOP-66O4QSA running 64-bit major release  (build 9200)
 | Command      : report_utilization -file to_berger_transfom_structural_utilization_synth.rpt -pb to_berger_transfom_structural_utilization_synth.pb
 | Design       : to_berger_transfom_structural
@@ -31,14 +31,14 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |    0 |     0 |          0 |     20800 |  0.00 |
-|   LUT as Logic          |    0 |     0 |          0 |     20800 |  0.00 |
+| Slice LUTs*             |   18 |     0 |          0 |     20800 |  0.09 |
+|   LUT as Logic          |   18 |     0 |          0 |     20800 |  0.09 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
-| Slice Registers         |    0 |     0 |          0 |     41600 |  0.00 |
-|   Register as Flip Flop |    0 |     0 |          0 |     41600 |  0.00 |
+| Slice Registers         |   26 |     0 |          0 |     41600 |  0.06 |
+|   Register as Flip Flop |   26 |     0 |          0 |     41600 |  0.06 |
 |   Register as Latch     |    0 |     0 |          0 |     41600 |  0.00 |
-| F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
-| F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
+| F7 Muxes                |    2 |     0 |          0 |     16300 |  0.01 |
+| F8 Muxes                |    1 |     0 |          0 |      8150 |  0.01 |
 +-------------------------+------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 Warning! LUT value is adjusted to account for LUT combining.
@@ -59,7 +59,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 0     |          Yes |       Reset |            - |
+| 26    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -92,7 +92,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   16 |     0 |          0 |       106 | 15.09 |
+| Bonded IOB                  |   33 |     0 |          0 |       106 | 31.13 |
 | Bonded IPADs                |    0 |     0 |          0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |          0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         5 |  0.00 |
@@ -117,7 +117,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +------------+------+-------+------------+-----------+-------+
 |  Site Type | Used | Fixed | Prohibited | Available | Util% |
 +------------+------+-------+------------+-----------+-------+
-| BUFGCTRL   |    0 |     0 |          0 |        32 |  0.00 |
+| BUFGCTRL   |    1 |     0 |          0 |        32 |  3.13 |
 | BUFIO      |    0 |     0 |          0 |        20 |  0.00 |
 | MMCME2_ADV |    0 |     0 |          0 |         5 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |          0 |         5 |  0.00 |
@@ -151,7 +151,19 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUFT    |   16 |                  IO |
+| FDRE     |   26 |        Flop & Latch |
+| IBUF     |   17 |                  IO |
+| OBUF     |   16 |                  IO |
+| LUT6     |   10 |                 LUT |
+| LUT2     |    4 |                 LUT |
+| LUT4     |    3 |                 LUT |
+| LUT3     |    3 |                 LUT |
+| MUXF7    |    2 |               MuxFx |
+| LUT5     |    2 |                 LUT |
+| LUT1     |    2 |                 LUT |
+| CARRY4   |    2 |          CarryLogic |
+| MUXF8    |    1 |               MuxFx |
+| BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 
 

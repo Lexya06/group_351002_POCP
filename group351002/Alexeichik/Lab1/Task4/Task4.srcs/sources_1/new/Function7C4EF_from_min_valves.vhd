@@ -49,15 +49,15 @@ signal AN, BN, CN, DN, BNC, ANBNCND, ABCN, BCDN: std_logic;
 
 -- entity work.INV - reference to component
 begin
-    INV1: entity my_gateslib.INV port map (i => SW(0), o => AN);
-    INV2: entity my_gateslib.INV port map (i => SW(1), o => BN);
-    INV3: entity my_gateslib.INV port map (i => SW(2), o => CN);
-    INV4: entity my_gateslib.INV port map (i => SW(3), o => DN);
+    INV1: entity my_gateslib.INV port map (i => SW(3), o => AN);
+    INV2: entity my_gateslib.INV port map (i => SW(2), o => BN);
+    INV3: entity my_gateslib.INV port map (i => SW(1), o => CN);
+    INV4: entity my_gateslib.INV port map (i => SW(0), o => DN);
     
-    AND21: entity my_gateslib.AND2 port map (i1 => BN, i2 => SW(2), o => BNC);
-    AND31: entity my_gateslib.AND3 port map (i1 => SW(0), i2 => SW(1), i3 => CN, o => ABCN);
-    AND32: entity my_gateslib.AND3 port map (i1 => SW(1), i2 => SW(2), i3 => DN, o => BCDN);
-    AND41: entity my_gateslib.AND4 port map (i1 => AN, i2 => BN, i3 => CN, i4 => SW(3),o => ANBNCND);
+    AND21: entity my_gateslib.AND2 port map (i1 => BN, i2 => SW(1), o => BNC);
+    AND31: entity my_gateslib.AND3 port map (i1 => SW(3), i2 => SW(2), i3 => CN, o => ABCN);
+    AND32: entity my_gateslib.AND3 port map (i1 => SW(2), i2 => SW(1), i3 => DN, o => BCDN);
+    AND41: entity my_gateslib.AND4 port map (i1 => AN, i2 => BN, i3 => CN, i4 => SW(0),o => ANBNCND);
     
     OR41: entity my_gateslib.OR4 port map (i1 => BNC, i2 => BCDN, i3 => ABCN, i4 => ANBNCND,o => LED);
     

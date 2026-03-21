@@ -1,6 +1,6 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc rfile:../../../../Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task7/transform_to_berger_code_from_mux2_and_invertors.srcs/constrs_1/new/Master-Basys3.xdc rfile:../../../transform_to_berger_code_from_mux2_and_invertors.srcs/constrs_1/new/Master-Basys3.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports {clk}]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {SW[0]}]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]

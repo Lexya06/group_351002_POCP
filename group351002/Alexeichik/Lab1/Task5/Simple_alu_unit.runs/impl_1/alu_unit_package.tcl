@@ -127,7 +127,8 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 4
-  set_param synth.incrementalSynthesisCache C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-13384-DESKTOP-66O4QSA/incrSyn
+  set_param synth.incrementalSynthesisCache C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-28640-DESKTOP-66O4QSA/incrSyn
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 12  }
   open_checkpoint alu_unit_package_routed.dcp
   set_property webtalk.parent_dir C:/Users/ASUS/Desktop/Vivado_tasks/Lab1/Task5/Simple_alu_unit.cache/wt [current_project]

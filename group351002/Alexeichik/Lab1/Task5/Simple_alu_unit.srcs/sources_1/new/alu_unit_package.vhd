@@ -21,7 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use work.alu_unit.all;
+use IEEE.NUMERIC_STD.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -42,13 +42,11 @@ end alu_unit_package;
 architecture Behavioral of alu_unit_package is
 
 begin
-    process(SW(3 downto 0))
-    begin
-       for op in alu_op loop
-        if SW(alu_op'pos(op)) = '1' then
-            LED <= do_alu_op(SW(15 downto 10), SW(9 downto 4), op);
-        end if;
-       end loop;
-    end process;   
+   with SW(3 downto 0) select LED <=
+            SW(15 downto 10) OR SW(9 downto 4) when "0001",
+            SW(15 downto 10) AND SW(9 downto 4) when "0010",
+            std_logic_vector(unsigned(SW(15 downto 10)) + unsigned(SW(9 downto 4))) when "0100",
+            SW(15 downto 10) NAND SW(9 downto 4) when "1000",
+            (others => '0') when others;
 
 end Behavioral;

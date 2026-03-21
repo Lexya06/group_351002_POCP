@@ -1,64 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771150673">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771709768">
   <File Type="ROUTE-PWR" Name="transform_to_berger_from_7421bcd_power_routed.rpt"/>
   <File Type="PA-TCL" Name="transform_to_berger_from_7421bcd.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="transform_to_berger_from_7421bcd_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="transform_to_berger_from_7421bcd_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="transform_to_berger_from_7421bcd.msk"/>
-  <File Type="ROUTE-CLK" Name="transform_to_berger_from_7421bcd_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="transform_to_berger_from_7421bcd.vdi"/>
-  <File Type="ROUTE-BUS-SKEW" Name="transform_to_berger_from_7421bcd_bus_skew_routed.rpt"/>
-  <File Type="PA-DCP" Name="transform_to_berger_from_7421bcd.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="transform_to_berger_from_7421bcd_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="transform_to_berger_from_7421bcd.bit"/>
-  <File Type="BG-DRC" Name="transform_to_berger_from_7421bcd.drc"/>
-  <File Type="BG-BGN" Name="transform_to_berger_from_7421bcd.bgn"/>
-  <File Type="BG-BIN" Name="transform_to_berger_from_7421bcd.bin"/>
-  <File Type="BITSTR-RBT" Name="transform_to_berger_from_7421bcd.rbt"/>
-  <File Type="BITSTR-NKY" Name="transform_to_berger_from_7421bcd.nky"/>
-  <File Type="BITSTR-BMM" Name="transform_to_berger_from_7421bcd_bd.bmm"/>
+  <File Type="OPT-RQA-PB" Name="transform_to_berger_from_7421bcd_rqa_opted.pb"/>
   <File Type="BITSTR-MMI" Name="transform_to_berger_from_7421bcd.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="transform_to_berger_from_7421bcd.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="transform_to_berger_from_7421bcd.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="transform_to_berger_from_7421bcd_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="transform_to_berger_from_7421bcd_opt.dcp"/>
   <File Type="OPT-DRC" Name="transform_to_berger_from_7421bcd_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="transform_to_berger_from_7421bcd.hwdef"/>
+  <File Type="PWROPT-DCP" Name="transform_to_berger_from_7421bcd_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="transform_to_berger_from_7421bcd_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="transform_to_berger_from_7421bcd_placed.dcp"/>
   <File Type="PLACE-IO" Name="transform_to_berger_from_7421bcd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="transform_to_berger_from_7421bcd_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="transform_to_berger_from_7421bcd_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="transform_to_berger_from_7421bcd_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="transform_to_berger_from_7421bcd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="transform_to_berger_from_7421bcd_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="transform_to_berger_from_7421bcd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="transform_to_berger_from_7421bcd.bin"/>
+  <File Type="PLACE-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="transform_to_berger_from_7421bcd_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="transform_to_berger_from_7421bcd_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="transform_to_berger_from_7421bcd_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="transform_to_berger_from_7421bcd.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="transform_to_berger_from_7421bcd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="transform_to_berger_from_7421bcd_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="transform_to_berger_from_7421bcd.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="transform_to_berger_from_7421bcd_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="transform_to_berger_from_7421bcd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="transform_to_berger_from_7421bcd_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="transform_to_berger_from_7421bcd_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="transform_to_berger_from_7421bcd_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="transform_to_berger_from_7421bcd_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="transform_to_berger_from_7421bcd_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="transform_to_berger_from_7421bcd_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="transform_to_berger_from_7421bcd_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="transform_to_berger_from_7421bcd_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="transform_to_berger_from_7421bcd_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="transform_to_berger_from_7421bcd_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="transform_to_berger_from_7421bcd_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="transform_to_berger_from_7421bcd_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="transform_to_berger_from_7421bcd_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="transform_to_berger_from_7421bcd_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="transform_to_berger_from_7421bcd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="transform_to_berger_from_7421bcd_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="transform_to_berger_from_7421bcd_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="transform_to_berger_from_7421bcd_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="transform_to_berger_from_7421bcd_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="transform_to_berger_from_7421bcd_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="transform_to_berger_from_7421bcd_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="transform_to_berger_from_7421bcd_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="transform_to_berger_from_7421bcd_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="transform_to_berger_from_7421bcd_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="transform_to_berger_from_7421bcd_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="transform_to_berger_from_7421bcd_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="transform_to_berger_from_7421bcd_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="transform_to_berger_from_7421bcd_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="transform_to_berger_from_7421bcd_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="transform_to_berger_from_7421bcd_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="transform_to_berger_from_7421bcd.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="transform_to_berger_from_7421bcd_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="transform_to_berger_from_7421bcd_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="transform_to_berger_from_7421bcd_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="transform_to_berger_from_7421bcd_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="transform_to_berger_from_7421bcd.nky"/>
+  <File Type="BITSTR-BMM" Name="transform_to_berger_from_7421bcd_bd.bmm"/>
   <File Type="PDI-FILE" Name="transform_to_berger_from_7421bcd.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="transform_to_berger_from_7421bcd_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="transform_to_berger_from_7421bcd_pld.pdi"/>
@@ -67,6 +73,13 @@
   <File Type="RNPI_FILE" Name="transform_to_berger_from_7421bcd.rnpi"/>
   <File Type="NPI_FILE" Name="transform_to_berger_from_7421bcd.npi"/>
   <File Type="RBD_FILE" Name="transform_to_berger_from_7421bcd.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="transform_to_berger_from_7421bcd.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="transform_to_berger_from_7421bcd.sysdef"/>
+  <File Type="BG-BGN" Name="transform_to_berger_from_7421bcd.bgn"/>
+  <File Type="BG-DRC" Name="transform_to_berger_from_7421bcd.drc"/>
+  <File Type="RDI-RDI" Name="transform_to_berger_from_7421bcd.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="transform_to_berger_from_7421bcd_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="transform_to_berger_from_7421bcd_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -93,7 +106,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3-without-clk.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -128,6 +141,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

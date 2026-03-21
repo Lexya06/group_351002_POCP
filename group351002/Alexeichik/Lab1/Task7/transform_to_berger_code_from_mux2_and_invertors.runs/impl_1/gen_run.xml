@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771354446">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771710240">
   <File Type="ROUTE-PWR" Name="to_berger_transfom_structural_power_routed.rpt"/>
   <File Type="PA-TCL" Name="to_berger_transfom_structural.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="to_berger_transfom_structural_power_summary_routed.pb"/>
@@ -204,7 +204,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../Task6/transformer_to_berger_code.srcs/constrs_1/new/Master-Basys3.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

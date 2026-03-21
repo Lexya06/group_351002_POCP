@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Feb 17 22:20:50 2026
+| Date         : Fri Feb 20 16:01:03 2026
 | Host         : DESKTOP-66O4QSA running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file Function7C4E_from_min_gates_timing_summary_routed.rpt -pb Function7C4E_from_min_gates_timing_summary_routed.pb -rpx Function7C4E_from_min_gates_timing_summary_routed.rpx -warn_on_violation
 | Design       : Function7C4E_from_min_gates
@@ -230,7 +230,7 @@ Slack:                    inf
                          net (fo=0)                   0.000     0.000    SW[1]
     V16                  IBUF (Prop_ibuf_I_O)         1.461     1.461 r  SW_IBUF[1]_inst/O
                          net (fo=1, routed)           1.379     2.841    OR41/SW_IBUF[1]
-    SLICE_X0Y10          LUT4 (Prop_lut4_I0_O)        0.124     2.965 r  OR41/o/O
+    SLICE_X0Y10          LUT4 (Prop_lut4_I2_O)        0.124     2.965 r  OR41/o/O
                          net (fo=1, routed)           1.874     4.839    LED_OBUF
     U16                  OBUF (Prop_obuf_I_O)         3.505     8.344 r  LED_OBUF_inst/O
                          net (fo=0)                   0.000     8.344    LED
@@ -259,7 +259,7 @@ Slack:                    inf
                          net (fo=0)                   0.000     0.000    SW[0]
     V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 r  SW_IBUF[0]_inst/O
                          net (fo=1, routed)           0.342     0.562    OR41/SW_IBUF[0]
-    SLICE_X0Y10          LUT4 (Prop_lut4_I3_O)        0.045     0.607 r  OR41/o/O
+    SLICE_X0Y10          LUT4 (Prop_lut4_I1_O)        0.045     0.607 r  OR41/o/O
                          net (fo=1, routed)           0.421     1.029    LED_OBUF
     U16                  OBUF (Prop_obuf_I_O)         1.206     2.234 r  LED_OBUF_inst/O
                          net (fo=0)                   0.000     2.234    LED

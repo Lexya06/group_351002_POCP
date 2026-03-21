@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771355957">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1771592390">
   <File Type="ROUTE-PWR" Name="Function7C4E_from_min_gates_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Function7C4E_from_min_gates.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Function7C4E_from_min_gates_power_summary_routed.pb"/>
