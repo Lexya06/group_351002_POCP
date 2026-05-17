@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Note: Test failed. Comparing result: 100. A=100
+Time: 5 us  Iteration: 0  Process: /testbench_cmp3/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task4/testbench/testbench_cmp3.srcs/sources_1/new/testbench_cmp3.vhd
+Failure: End of simulation
+Time: 5 us  Iteration: 0  Process: /testbench_cmp3/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task4/testbench/testbench_cmp3.srcs/sources_1/new/testbench_cmp3.vhd
+$finish called at time : 5 us : File "C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task4/testbench/testbench_cmp3.srcs/sources_1/new/testbench_cmp3.vhd" Line 80

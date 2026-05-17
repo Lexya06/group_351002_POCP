@@ -1,0 +1,115 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sat Mar 21 20:36:28 2026
+| Host         : DESKTOP-66O4QSA running 64-bit major release  (build 9200)
+| Command      : report_methodology -file BISTABLE_CELL_methodology_drc_routed.rpt -pb BISTABLE_CELL_methodology_drc_routed.pb -rpx BISTABLE_CELL_methodology_drc_routed.rpx
+| Design       : BISTABLE_CELL
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 16
++-----------+----------+--------------------------+------------+
+| Rule      | Severity | Description              | Violations |
++-----------+----------+--------------------------+------------+
+| TIMING-23 | Warning  | Combinational loop found | 16         |
++-----------+----------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[0].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[0].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[10].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[10].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[11].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[11].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#4 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[12].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[12].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#5 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[13].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[13].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#6 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[14].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[14].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#7 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[15].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[15].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#8 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[1].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[1].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#9 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[2].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[2].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#10 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[3].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[3].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#11 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[4].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[4].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#12 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[5].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[5].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#13 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[6].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[6].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#14 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[7].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[7].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#15 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[8].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[8].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#16 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between BISTABLE_CELLS[9].BISTABLE_CELL_INST/internal_inferred_i_1/I0 and BISTABLE_CELLS[9].BISTABLE_CELL_INST/internal_inferred_i_1/O to disable the timing loop
+Related violations: <none>
+
+

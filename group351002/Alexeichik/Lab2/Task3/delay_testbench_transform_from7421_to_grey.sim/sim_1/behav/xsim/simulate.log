@@ -1,0 +1,64 @@
+Time resolution is 1 ps
+Note: ----------START TEST----------
+Time: 3 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 0 passed.Input: 0000,output: 0000,expected: 0000
+Time: 3 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 3 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 4 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 1 passed.Input: 0001,output: 0001,expected: 0001
+Time: 4 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 4 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 5 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 2 passed.Input: 0010,output: 0011,expected: 0011
+Time: 5 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 5 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 6 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 3 passed.Input: 0011,output: 0010,expected: 0010
+Time: 6 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 6 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 7 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 4 passed.Input: 0100,output: 0110,expected: 0110
+Time: 7 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 7 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 8 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 5 passed.Input: 0101,output: 0111,expected: 0111
+Time: 8 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 8 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 9 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 6 passed.Input: 0110,output: 0101,expected: 0101
+Time: 9 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 9 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 10 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 7 passed.Input: 0111,output: 0100,expected: 0100
+Time: 10 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 10 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 11 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 8 passed.Input: 1001,output: 1101,expected: 1101
+Time: 11 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 11 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------START TEST----------
+Time: 12 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: Test 9 passed.Input: 1010,output: 1111,expected: 1111
+Time: 12 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Note: ----------END TEST----------
+Time: 12 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+Failure: End of simulation
+Time: 12 us  Iteration: 0  Process: /testbench_code_transformer/Test  File: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd
+$finish called at time : 12 us : File "C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd" Line 97

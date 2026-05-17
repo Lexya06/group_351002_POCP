@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat May  2 16:03:48 2026
+# Process ID: 32260
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26880 C:\Users\ASUS\Desktop\Vivado_tasks\Lab3\Task1\testbench\RSLATCH_TESTBENCH.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.xpruupdate_compile_order -fileset sources_1launch_simulation
+source TESTBENCH.tcl
+close_sim
+launch_simulation
+source TESTBENCH.tcl
+close_sim
+launch_simulation
+source TESTBENCH.tcl
+close_sim
+launch_simulation
+source TESTBENCH.tcl
+close_sim
+launch_simulation
+source TESTBENCH.tcl
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+launch_simulation
+source TESTBENCH.tcl
+close_sim

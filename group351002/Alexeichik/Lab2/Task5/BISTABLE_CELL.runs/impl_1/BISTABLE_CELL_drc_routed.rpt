@@ -1,0 +1,132 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sat Mar 21 20:36:27 2026
+| Host         : DESKTOP-66O4QSA running 64-bit major release  (build 9200)
+| Command      : report_drc -file BISTABLE_CELL_drc_routed.rpt -pb BISTABLE_CELL_drc_routed.pb -rpx BISTABLE_CELL_drc_routed.rpx
+| Design       : BISTABLE_CELL
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 16
++---------+----------+----------------------------+------------+
+| Rule    | Severity | Description                | Violations |
++---------+----------+----------------------------+------------+
+| LUTLP-2 | Warning  | Combinatorial Loop Allowed | 16         |
++---------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-2#1 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[0].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[0].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#2 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[10].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[10].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#3 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[11].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[11].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#4 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[12].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[12].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#5 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[13].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[13].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#6 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[14].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[14].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#7 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[15].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[15].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#8 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[1].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[1].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#9 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[2].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[2].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#10 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[3].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[3].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#11 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[4].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[4].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#12 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[5].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[5].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#13 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[6].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[6].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#14 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[7].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[7].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#15 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[8].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[8].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+LUTLP-2#16 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: BISTABLE_CELLS[9].BISTABLE_CELL_INST/internal_inferred_i_1
+BISTABLE_CELLS[9].BISTABLE_CELL_INST/internaln_inferred_i_1.
+Related violations: <none>
+
+

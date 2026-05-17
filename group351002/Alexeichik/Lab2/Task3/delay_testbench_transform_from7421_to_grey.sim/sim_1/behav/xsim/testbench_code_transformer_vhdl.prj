@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl my_delay_gateslib  \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/My_delay_gates.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/MUX2.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/MUX2AND.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/ANDN.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/INV.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/MUX2OR.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/ORN.vhd" \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/delay_interconnection.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/testbench_code_transformer.vhd" \
+
+# Do not sort compile order
+nosort

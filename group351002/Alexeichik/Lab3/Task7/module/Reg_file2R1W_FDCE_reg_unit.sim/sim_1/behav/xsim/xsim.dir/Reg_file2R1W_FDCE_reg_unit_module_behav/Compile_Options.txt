@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "my_gateslib" -L "secureip" --snapshot "Reg_file2R1W_FDCE_reg_unit_module_behav" "xil_defaultlib.Reg_file2R1W_FDCE_reg_unit_module" -log "elaborate.log" 

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/ANDN.vhd,1776406441,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/RSLATCH_NAND.vhd,,,lutandn,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/INV_LUT1.vhd,1776408546,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/RSLATCH_NAND.vhd,,,inv_lut1,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/LUT2AND.vhd,1776408535,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task1/testbench/RSLATCH_TESTBENCH.srcs/sources_1/imports/new/ANDN.vhd,,,lut2and,,,,,,,,

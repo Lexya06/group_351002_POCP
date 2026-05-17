@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl my_gateslib  \
+"../../../../FDRE_reg_unit_TESTBENCH.srcs/sources_1/imports/new/DFFAR.vhd" \
+"../../../../FDRE_reg_unit_TESTBENCH.srcs/sources_1/imports/new/My_gates.vhd" \
+"../../../../FDRE_reg_unit_TESTBENCH.srcs/sources_1/imports/new/FDRE_reg_unit.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../FDRE_reg_unit_TESTBENCH.srcs/sources_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

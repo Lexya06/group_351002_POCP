@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "my_gateslib" -L "secureip" --snapshot "to_berger_transfom_structural_behav" "my_gateslib.to_berger_transfom_structural" -log "elaborate.log" 

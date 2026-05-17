@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl my_gateslib  \
+"../../../../pwm_testbench.srcs/sources_1/imports/new/My_gates.vhd" \
+"../../../../pwm_testbench.srcs/sources_1/imports/new/pwm.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../pwm_testbench.srcs/sources_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

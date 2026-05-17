@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task6/DLATCH.srcs/constrs_1/imports/new/Master-Basys3.xdc rfile:../../../DLATCH.srcs/constrs_1/imports/new/Master-Basys3.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {SW[0]}]
+set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports {SW[1]}]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {LED[0]}]

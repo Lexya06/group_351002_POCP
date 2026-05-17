@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Checkpoint Version="21" Minor="0">
+	<BUILD_NUMBER Name="4029153"/>
+	<FULL_BUILD Name="SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023"/>
+	<PRODUCT Name="Vivado v2023.2 (64-bit)"/>
+	<Part Name="xc7a35tcpg236-1"/>
+	<FeatureSet Name="FeatureSet_Classic"/>
+	<Top Name="SYNTHES_DLATCH"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<MacroLevel Name="1"/>
+	<RunGenerated Name="1"/>
+	<HDPlatform Name="0"/>
+	<File Type="VERILOG_STUB" Name="SYNTHES_DLATCH_stub.v" ModTime="1774114123"/>
+	<File Type="VHDL_STUB" Name="SYNTHES_DLATCH_stub.vhdl" ModTime="1774114123"/>
+	<File Type="PARAMXML" Name="SYNTHES_DLATCH_param.xml" ModTime="1774114123"/>
+	<File Type="PARAMXML" Name="SYNTHES_DLATCH_param.xml" ModTime="1774114123"/>
+	<File Type="EDIF" Name="SYNTHES_DLATCH.edf" ModTime="1774114123"/>
+	<File Type="XN" Name="SYNTHES_DLATCH.xn" ModTime="1774114123"/>
+	<File Type="SHAPE" Name="SYNTHES_DLATCH.shape" ModTime="1774114123"/>
+	<File Type="INCR" Name="SYNTHES_DLATCH.incr" ModTime="1774114123"/>
+	<File Type="RDA" Name="SYNTHES_DLATCH.rda" ModTime="1774114123"/>
+	<File Type="JSON_RDA" Name="SYNTHES_DLATCH_rda.json" ModTime="1774114123"/>
+	<File Type="WDF" Name="SYNTHES_DLATCH.wdf" ModTime="1774114123"/>
+	<File Type="SYNTH" Name="SYNTHES_DLATCH.synth" ModTime="1774114123"/>
+</Checkpoint>
+

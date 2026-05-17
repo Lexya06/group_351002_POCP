@@ -1,0 +1,40 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Fri Apr 17 09:55:21 2026
+| Host         : DESKTOP-66O4QSA running 64-bit major release  (build 9200)
+| Command      : report_methodology -file RSLATCH_MODULE_methodology_drc_routed.rpt -pb RSLATCH_MODULE_methodology_drc_routed.pb -rpx RSLATCH_MODULE_methodology_drc_routed.rpx
+| Design       : RSLATCH_MODULE
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1
++-----------+----------+--------------------------+------------+
+| Rule      | Severity | Description              | Violations |
++-----------+----------+--------------------------+------------+
+| TIMING-23 | Warning  | Combinational loop found | 1          |
++-----------+----------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between RSLATCH_NAND_elem/nq_r_and2_elem/ANDN[0].AND2/LUT2AND_elem/I0 and RSLATCH_NAND_elem/nq_r_and2_elem/ANDN[0].AND2/LUT2AND_elem/O to disable the timing loop
+Related violations: <none>
+
+

@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl work  \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/imports/new/LUT2AND.vhd" \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/imports/new/ANDN.vhd" \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/imports/new/INV_LUT1.vhd" \
+
+vhdl my_gateslib  \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/imports/new/My_gates.vhd" \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/imports/new/RSLATCH_NAND.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../RSLATCH_TESTBENCH.srcs/sources_1/new/TESTBENCH.vhd" \
+
+# Do not sort compile order
+nosort

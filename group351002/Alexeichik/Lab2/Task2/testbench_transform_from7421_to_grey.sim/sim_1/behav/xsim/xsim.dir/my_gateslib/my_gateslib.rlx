@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ANDN.vhd,1772875167,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd,,,andn,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/INV.vhd,1772888676,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd,,,inv,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2.vhd,1772888647,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2AND.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2OR.vhd,,,mux2,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2AND.vhd,1772877563,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ANDN.vhd,,,mux2and,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2OR.vhd,1772877566,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ORN.vhd,,,mux2or,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/My_gates.vhd,1773961568,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ANDN.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/INV.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2AND.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/MUX2OR.vhd;C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ORN.vhd,,,my_components,,,,,,,,
+C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/ORN.vhd,1772875210,vhdl,C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd,,,orn,,,,,,,,

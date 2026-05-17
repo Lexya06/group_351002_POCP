@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun May 17 14:36:54 2026
+# Process ID: 22368
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9420 C:\Users\ASUS\Desktop\Vivado_tasks\MyGates\my_gates.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.xpr
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/RSLATCH.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/RSLATCH.vhd

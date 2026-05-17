@@ -1,0 +1,7 @@
+Running: xsim.dir/to_berger_transfom_structural_behav/xsimk.exe -simmode gui -wdb to_berger_transfom_structural_behav.wdb -simrunnum 0 -socket 5295
+Design successfully loaded
+Design Loading Memory Usage: 9612 KB (Peak: 9612 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 10184 KB (Peak: 10184 KB)
+Simulation CPU Usage: 796 ms

@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 17 16:11:19 2026
+# Process ID: 15904
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21004 C:\Users\ASUS\Desktop\Vivado_tasks\Lab3\Task3\reg_file1r1w\module\Reg_file1R1W_FDRE_reg_unit.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/Reg_file1R1W_FDRE_reg_unit.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/Reg_file1R1W_FDRE_reg_unit.runs/impl_1/Reg_file1R1W_FDRE_reg_unit_module.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/Reg_file1R1W_FDRE_reg_unit.runs/impl_1/Reg_file1R1W_FDRE_reg_unit_module.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 14
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/Reg_file1R1W_FDRE_reg_unit.runs/impl_1/Reg_file1R1W_FDRE_reg_unit_module.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 14
+wait_on_run impl_1
+open_run impl_1
+open_run synth_1 -name synth_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Desktop/Vivado_tasks/Lab3/Task3/reg_file1r1w/module/Reg_file1R1W_FDRE_reg_unit.runs/impl_1/Reg_file1R1W_FDRE_reg_unit_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

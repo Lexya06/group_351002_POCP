@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "work" -L "my_gateslib" -L "secureip" --snapshot "TESTBENCH_behav" "xil_defaultlib.TESTBENCH" -log "elaborate.log" 

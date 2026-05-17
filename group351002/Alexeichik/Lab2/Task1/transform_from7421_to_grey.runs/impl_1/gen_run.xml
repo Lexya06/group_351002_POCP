@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1774005860">
+  <File Type="ROUTE-PWR" Name="code_transformer_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="code_transformer.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="code_transformer_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="code_transformer_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="code_transformer.msk"/>
+  <File Type="ROUTE-CLK" Name="code_transformer_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="code_transformer.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="code_transformer_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="code_transformer.bit"/>
+  <File Type="BG-DRC" Name="code_transformer.drc"/>
+  <File Type="BG-BGN" Name="code_transformer.bgn"/>
+  <File Type="BG-BIN" Name="code_transformer.bin"/>
+  <File Type="BITSTR-RBT" Name="code_transformer.rbt"/>
+  <File Type="BITSTR-NKY" Name="code_transformer.nky"/>
+  <File Type="BITSTR-BMM" Name="code_transformer_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="code_transformer.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="code_transformer_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="code_transformer.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="code_transformer.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="code_transformer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="code_transformer.hwdef"/>
+  <File Type="PLACE-IO" Name="code_transformer_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="code_transformer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="code_transformer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="code_transformer_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="code_transformer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="code_transformer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="code_transformer_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="code_transformer_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="code_transformer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="code_transformer_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="code_transformer_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="code_transformer_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="code_transformer_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="code_transformer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="code_transformer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="code_transformer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="code_transformer_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="code_transformer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="code_transformer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="code_transformer_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="code_transformer_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="code_transformer_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="code_transformer_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="code_transformer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="code_transformer_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="code_transformer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="code_transformer_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="code_transformer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="code_transformer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="code_transformer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="code_transformer_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="code_transformer_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="code_transformer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="code_transformer_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="code_transformer_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="code_transformer.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="code_transformer_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="code_transformer_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="code_transformer.rcfi"/>
+  <File Type="CFI_FILE" Name="code_transformer.cfi"/>
+  <File Type="RNPI_FILE" Name="code_transformer.rnpi"/>
+  <File Type="NPI_FILE" Name="code_transformer.npi"/>
+  <File Type="RBD_FILE" Name="code_transformer.rbd"/>
+  <File Type="ROUTE-RQS" Name="code_transformer_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="code_transformer_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/My_gates.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/INV.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/ORN.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/ANDN.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/code_transformer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/MUX2.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/MUX2AND.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../MyGates/my_gates.srcs/sources_1/new/MUX2OR.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="my_gateslib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="code_transformer"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Master-Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/code_transformer.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

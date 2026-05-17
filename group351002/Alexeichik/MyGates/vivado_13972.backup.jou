@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Mar 20 00:37:09 2026
+# Process ID: 13972
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3876 C:\Users\ASUS\Desktop\Vivado_tasks\MyGates\my_gates.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/MyGates\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.xpr
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/delay_interconnection.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/delay_interconnection.vhd
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/RSLATCH.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/RSLATCH.vhd
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/RSLATCH.vhd]
+add_files -norecurse {C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/INV_LUT1.vhd C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/LUTN.vhd}
+set_property library my_gateslib [get_files  {C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/INV_LUT1.vhd C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/LUTN.vhd}]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/DLATCH.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/DLATCH.vhd
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/DLATCH.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/FDRS.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/FDRS.vhd
+set_property library my_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyGates/my_gates.srcs/sources_1/new/FDRS.vhd]

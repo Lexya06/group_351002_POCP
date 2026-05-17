@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl my_gateslib  \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/My_gates.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/MUX2.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/MUX2AND.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/ANDN.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/INV.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/MUX2OR.vhd" \
+"../../../../../../MyGates/my_gates.srcs/sources_1/new/ORN.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../Task1/transform_from7421_to_grey.srcs/sources_1/new/code_transformer.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../testbench_transform_from7421_to_grey.srcs/sources_1/new/testbench_code_transformer.vhd" \
+
+# Do not sort compile order
+nosort

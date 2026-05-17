@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Mar  8 16:45:45 2026
+# Process ID: 31560
+# Current directory: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17676 C:\Users\ASUS\Desktop\Vivado_tasks\Lab2\Task3\delay_testbench_transform_from7421_to_grey.xpr
+# Log file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3\vivado.jou
+# Running On: DESKTOP-66O4QSA, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.xpr
+update_compile_order -fileset sources_1
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/My_gates.vhd]
+update_compile_order -fileset sources_1
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/MUX2.vhd]
+update_compile_order -fileset sources_1
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/MUX2AND.vhd]
+update_compile_order -fileset sources_1
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/ANDN.vhd]
+update_compile_order -fileset sources_1
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/Lab2/Task3/delay_testbench_transform_from7421_to_grey.srcs/sources_1/imports/new/INV.vhd]
+update_compile_order -fileset sources_1
+e_mgmt_mode DisplayOnly [current_project]
+reorder_files -before C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2.vhd C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/My_delay_gates.vhd
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2AND.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2AND.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2AND.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ANDN.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ANDN.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ANDN.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/INV.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/INV.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/INV.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2OR.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2OR.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/MUX2OR.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ORN.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ORN.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/ORN.vhd]
+close [ open C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/delay_interconnection.vhd w ]
+add_files C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/delay_interconnection.vhd
+set_property library my_delay_gateslib [get_files  C:/Users/ASUS/Desktop/Vivado_tasks/MyDelayGates/My_delay_gates.srcs/sources_1/new/delay_interconnection.vhd]
